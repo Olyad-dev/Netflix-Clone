@@ -62,3 +62,25 @@
   width: 100%;
   text-align: center;
 }
+
+/* Responsive styles for the footer */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .footer a {
+        margin: 0 5px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links a {
+        margin: 5px 0;
+    }
+}
